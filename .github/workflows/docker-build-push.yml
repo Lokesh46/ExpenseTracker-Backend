@@ -49,5 +49,5 @@ jobs:
             DATABASE_USERNAME=${{ secrets.DATABASE_USERNAME }}
             DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }}
 
-#      - name: Trigger Deploy on Render
-#        run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+      - name: Trigger Deploy on Render
+        run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
