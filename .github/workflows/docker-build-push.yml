@@ -2,7 +2,7 @@ name: Build, Tag, and Deploy Docker Image with Slack Notification
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     tags: [ '*' ]
 
 jobs:

@@ -66,7 +66,7 @@ public class JwtAuthenticationController {
             }
         }
 
-        
+
         // Encode the password before saving
         User newUser = new User();
         newUser.setUsername(registerRequest.username());
