@@ -9,7 +9,7 @@ COPY src ./src
 RUN mvn clean install -DskipTests
 
 # Stage 2: Runtime image
-FROM openjdk:17-jdk-slim
+FROM openjdk:27-ea-jdk-slim
 
 WORKDIR /app
 
